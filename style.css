@@ -1,38 +1,130 @@
+/* Global settings */
+
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Roboto", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }
+
+/* header section */
 
 header {
-    background-image: url("./imgs/header-bg");
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 200px;
+  background-image: url("./imgs/header-bg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 200px;
 }
 
 header .navbar {
-    margin-bottom: 126px !important;
+  margin-bottom: 126px !important;
 }
 
-header .navbar .container .container-fluid .collapse ul li a{
-    transition: 0.2s !important;
+header .navbar .container .container-fluid .collapse ul li a {
+  transition: 0.2s !important;
 }
 
 header .navbar .container .container-fluid .collapse ul li a:hover {
-    color: #e6e6e6 !important;
+  color: #e6e6e6 !important;
 }
 
 header .header h1 {
-    font-size: 96px !important;
+  font-size: 96px !important;
 }
 
 header .header p {
-    width: 400px;
+  width: 400px;
 }
 
 header .header button {
-    background: linear-gradient(45deg,rgb(71, 138, 201),rgb(147, 189, 229));
+  background: linear-gradient(45deg, rgb(71, 138, 201), rgb(147, 189, 229));
+}
+
+/* start your journey section */
+
+section.start-your-journey {
+  background-color: rgb(233, 242, 250);
+  padding: 75px 0;
+}
+
+section.start-your-journey .content {
+  color: rgb(71, 138, 201);
+  background-color: rgb(233, 242, 250);
+}
+
+section.start-your-journey .content p {
+  color: #4c7397;
+  margin-bottom: 100px;
+}
+
+section.start-your-journey .cards .card {
+  width: 360px;
+  height: fit-content;
+  background: transparent;
+}
+
+section.start-your-journey .cards .card img {
+  width: 100%;
+  height: 300px;
+}
+
+section.start-your-journey .cards .card .content {
+  background-color: white;
+  height: fit-content;
+}
+
+section.start-your-journey .cards .card .content p {
+  color: rgb(17, 17, 17);
+}
+
+/* laptop view */
+
+@media (max-width: 1439px) {
+  header {
+    padding-bottom: 100px;
+  }
+
+  section.start-your-journey .cards .card {
+    width: 293px;
+  }
+}
+
+/* tablet view */
+
+@media (max-width: 991px) {
+  header {
+    padding-bottom: 75px;
+  }
+
+  section.start-your-journey .cards .card {
+    width: 220px;
+  }
+}
+
+/* phone view */
+
+@media (max-width: 767px) {
+  section.start-your-journey .cards .card {
+    width: 100%;
+  }
+
+  header .header h1 {
+    font-size: 48px !important;
+  }
+
+  header .header p {
+    width: 340px;
+  }
+}
+
+@media (max-width: 374px) {
+  header .header p {
+    width: 100%;
+  }
 }
