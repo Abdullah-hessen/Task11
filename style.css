@@ -8,5 +8,31 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
     background-image: url("./imgs/header-bg");
+    background-position: center;
     background-size: cover;
+    padding-bottom: 200px;
+}
+
+header .navbar {
+    margin-bottom: 126px !important;
+}
+
+header .navbar .container .container-fluid .collapse ul li a{
+    transition: 0.2s !important;
+}
+
+header .navbar .container .container-fluid .collapse ul li a:hover {
+    color: #e6e6e6 !important;
+}
+
+header .header h1 {
+    font-size: 96px !important;
+}
+
+header .header p {
+    width: 400px;
+}
+
+header .header button {
+    background: linear-gradient(45deg,rgb(71, 138, 201),rgb(147, 189, 229));
 }
