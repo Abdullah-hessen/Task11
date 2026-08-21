@@ -50,7 +50,7 @@ header .header button {
 
 section.start-your-journey {
   background-color: rgb(233, 242, 250);
-  padding: 75px 0;
+  padding: 90px 0;
 }
 
 section.start-your-journey .content {
@@ -83,6 +83,81 @@ section.start-your-journey .cards .card .content p {
   color: rgb(17, 17, 17);
 }
 
+/* main section */
+
+main {
+  padding: 90px 0;
+}
+
+main .container .content h2 {
+  color: rgb(17, 17, 17);
+}
+
+main .container .content div ul li a {
+  color: rgb(71, 138, 201);
+  transition: 0.2s;
+}
+
+main .container .content div ul li a:hover {
+  color: rgb(56, 124, 189);
+}
+
+main .container .content .ul-left {
+  margin-right: 230px;
+}
+
+main .container .content .ul-right {
+  margin-right: 230px;
+}
+
+main .container .newsletter p {
+  color: rgb(153, 153, 153);
+}
+
+main .container .newsletter div input {
+  background-color: rgb(242, 242, 242);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  width: 210px;
+}
+
+main .container .newsletter div button {
+  background-color: rgb(71, 138, 201);
+}
+
+main .container .newsletter div svg {
+  cursor: pointer;
+}
+
+/* discount section */
+
+section.discount {
+  background-image: url("./imgs/bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0 100px 0;
+}
+
+section.discount .container h2 {
+  font-size: 36px;
+}
+
+section.discount .container p {
+  width: 680px;
+}
+
+section.discount .container button {
+  width: 130px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+section.discount .container button:hover {
+  border: transparent;
+  color: #e6e6e6;
+}
+
 /* laptop view */
 
 @media (max-width: 1439px) {
@@ -92,6 +167,26 @@ section.start-your-journey .cards .card .content p {
 
   section.start-your-journey .cards .card {
     width: 293px;
+  }
+
+  main .container .content .ul-left {
+    margin-right: 100px;
+  }
+
+  main .container .content .ul-right {
+    margin-right: 100px;
+  }
+
+  section.discount {
+    padding: 160px 0 100px 0;
+  }
+
+  section.discount .container p {
+    width: 540px;
+  }
+
+  section.discount .container h2 {
+    font-size: 48px;
   }
 }
 
@@ -104,6 +199,26 @@ section.start-your-journey .cards .card .content p {
 
   section.start-your-journey .cards .card {
     width: 220px;
+  }
+
+  main .container .content .ul-left {
+    margin-right: 40px;
+  }
+
+  main .container .content .ul-right {
+    margin-right: 40px;
+  }
+
+  main .container .newsletter div input {
+    width: 100px;
+  }
+
+  section.discount {
+    padding: 140px 0 140px 0;
+  }
+
+  section.discount .container p {
+    width: 600px;
   }
 }
 
@@ -120,6 +235,26 @@ section.start-your-journey .cards .card .content p {
 
   header .header p {
     width: 340px;
+  }
+
+  main .container .newsletter div input {
+    width: 100%;
+  }
+
+  section.discount {
+    padding: 90px 0 90px 0;
+  }
+
+  section.discount .container h2 {
+    font-size: 30px;
+  }
+
+  section.discount .container p {
+    width: 300px;
+  }
+
+  section.discount .container button {
+    margin-right: 50px;
   }
 }
 
