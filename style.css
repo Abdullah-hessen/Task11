@@ -205,6 +205,16 @@ section.why-us .container .downbox .right-box .downright-box {
   background-size: cover;
 }
 
+/* footer section */
+
+footer {
+  background-color: #292e33;
+  padding: 50px 0 60px 0;
+}
+
+footer .container div svg {
+  cursor: pointer;
+}
 
 /* laptop view */
 
@@ -359,6 +369,10 @@ section.why-us .container .downbox .right-box .my-card {
 section.why-us .container .downbox .right-box .my-card {
   width: 100% !important;
   height: 259px;
+}
+
+footer .container p {
+  width: 328px  ;
 }
 }
 
