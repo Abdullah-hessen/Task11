@@ -351,6 +351,15 @@ section.why-us .container .downbox .right-box .my-card {
   section.discount .container button {
     margin-right: 50px;
   }
+
+  section.why-us .container .content h2 {
+    font-size: 30px !important;
+}
+
+section.why-us .container .downbox .right-box .my-card {
+  width: 100% !important;
+  height: 259px;
+}
 }
 
 @media (max-width: 374px) {
